@@ -1,0 +1,435 @@
+#header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    width: 100%;
+    height: 800px;
+}
+#left-header {
+    display: inline-block;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+#right-header {
+    display: inline-block;
+    text-align: right;
+    margin-left: 37%;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#blue-apron-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+#on-the-menu {
+    padding: 10px;
+}
+#pricing {
+    padding: 10px;
+}
+#wine {
+    padding: 10px;
+}
+#gifts {
+    padding: 10px;
+}
+#market {
+    padding: 10px;
+}
+#log-in {
+    padding: 10px;
+}
+#sign-up {
+    padding: 10px;
+    border-radius: 3px;
+}
+#video-menu {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+#blue-apron-video {
+    position: relative;
+    display: block;
+    align-self: center;
+    width: 100%;
+}
+#video-text {
+    position: absolute;
+    display: block;
+    top: 130px;
+    left: 100px;
+    right: 100px;
+    color:white;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+}
+#get-started {
+    position: absolute;
+    display: block;
+    top: 330px;
+    left: 525px;
+    right: 525px;
+    padding: 20px;
+    width: 200px;
+    font-family: Helvetica, sans-serif;
+    border-radius: 3px;
+    font-size: 16px;
+}
+#choose-your-meal-image {
+    text-align: center;
+    justify-self: center;
+    vertical-align: middle;
+    margin-left: 130px;
+    height: 400px;
+    width: 400px;
+}
+#choose-meal-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-right: 130px;
+}
+#choose-meal-text {
+    line-height: 45px;
+    width: 700px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 100px;
+}
+#unpack-box-image {
+    text-align: center;
+    justify-self: center;
+    vertical-align: middle;
+    margin-left: 250px;
+    height: 400px;
+    width: 450px;
+}
+#unpack-box-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+#unpack-box-text {
+    line-height: 45px;
+    width: 400px;
+    display: inline-block;
+    justify-self: center;
+    text-align: left;
+    margin-left: 100px;
+}
+#cook-create-enjoy-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; 
+}
+#cook-create-enjoy-image {
+    text-align: center;
+    justify-self: center;
+    vertical-align: middle;
+    margin-left: 75px;
+    height: 400px;
+    width: 400px;
+}
+#cook-create-enjoy-text {
+    line-height: 40px;
+    width: 490px;
+    display: inline-block;
+    justify-self: center;
+    text-align: left;
+    padding-left: 150px;
+    margin-right: 100px;
+}
+#meal-kit-info {
+    align-content: center;
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url("What\ Is\ In\ Your\ Box\ Pic.png");
+    background-size: auto;
+}
+#meal-kit-table {
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    margin: 80px;
+    padding: 35px;
+}
+#table-image {
+    vertical-align: middle;
+    height: 70px;
+    width: 70px;
+}
+#meal-kit-info-image {
+    position: relative;
+    display: block;
+    align-self: center;
+    width: 100%;
+    height: 900px;
+}
+#meal-kit-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; 
+    padding: 10px;
+}
+#meal-kit-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    width: 60%;
+}
+#meal-kit-title {
+    font-size: 20px;
+
+}
+#table-title {
+    font-size: 20px;
+    text-align: center;
+    width: 75%;
+}
+#column-text {
+    font-size: 14px;
+    text-align: center;
+    width: 65%;
+}
+#kit-button {
+    text-align: center;
+    background-color: #245091;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    width: 40%;
+}
+#kit-button:hover {
+    cursor: pointer;
+    background-color: #0f346c;
+}
+#choose-your-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#starting-at-image {
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    justify-self: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+#plan-kit-button {
+    text-align: center;
+    background-color: #245091;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+#plan-title {
+    font-size: 25px;
+}
+#plan-text {
+    font-size: 15px;
+}
+.social-media-title {
+    font-size: 14px;
+    text-align: center;
+}
+#social-media-title-chef {
+    font-size: 14px;
+    text-align: left;
+    width: 50%;
+}
+#chef-roy {
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    background-color: none;
+    border-radius: 5px;
+}
+#social-media-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    border: 2px solid;
+    border-color: whitesmoke;
+    width: 100%;
+    height: 200px;
+}
+#follow-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 350px;
+}
+#blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#blog-column {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+}
+#email-address {
+    position: relative;
+    text-align: center;
+    height: 25px;
+    width: 90%;
+    border-radius: 5px 0px 0px 5px;
+}
+#go {
+    position: absolute;
+    text-align: center;
+    background-color: #245091;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    height: 31px;
+    width: 50px;
+    margin-left: -45px;
+}
+#social-media-image {
+    vertical-align: middle;
+    width: 250px;
+    align-content: center;
+}
+#page-footer {
+    display: flex;
+    background-color: #0f346c;
+}
+.footer-table {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-table a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#footer-col-text {
+    color:#a1bce6;
+    line-height: 35px;
+    padding-left: 40px;
+}
+#footer-col-text-support {
+    color: white;
+    padding-left: 35px;
+    line-height: 35px;
+}
+#footer-col-1 {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#footer-col-2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#footer-col-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#footer-col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#footer-col-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: right;
+    vertical-align: middle;
+    margin-left: 300px;
+    padding-top: 20px;
+}
+#apps {
+    width: 150px;
+}
+#blue-apron-tm{
+    color:white;
+}
+#accessability {
+    display: flex;
+    background-color: #0f346c;
+}
+#message {
+    font-size: 14px;
+    color: white;
+    padding: 35px;
+}
+#message-link {
+    color:#a1bce6;
+}
+#message-link:hover {
+    text-decoration: underline;
+}
+h2 {
+    font-size: 49px;
+    font-family: Helvetica, sans-serif;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #6a6d75;
+}
+a {
+    text-decoration: none;
+    color: #6a6d75;
+}
+a:hover{
+    text-decoration: none;
+    color: #0f346c;
+}
+button {
+    background-color: #f26226;
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+}
